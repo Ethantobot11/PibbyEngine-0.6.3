@@ -23,18 +23,7 @@ import lime.ui.MouseCursor;
 import lime.ui.Window;
 import lime.utils.UInt8Array;
 
-#if !lime_debug
-@:fileXml('tags="haxe,release"')
-@:noDebug
-#end
-@:access(lime._internal.backend.native.NativeCFFI)
-@:access(lime._internal.backend.native.NativeOpenGLRenderContext)
-@:access(lime.app.Application)
-@:access(lime.graphics.cairo.Cairo)
-@:access(lime.graphics.opengl.GL)
-@:access(lime.graphics.OpenGLRenderContext)
-@:access(lime.graphics.RenderContext)
-@:access(lime.system.DisplayMode)
+
 class NativeWindow
 {
 	public var handle:Dynamic;
