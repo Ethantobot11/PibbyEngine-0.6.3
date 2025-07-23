@@ -20,7 +20,7 @@ on:
         type: string
 
 env:
-  HAXE_VERSION: 4.2.5
+  HAXE_VERSION: 4.2.4
   PROJECT_NAME: PibbyEngine 0.6.3
 
 jobs:
