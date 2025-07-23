@@ -53,8 +53,8 @@
     {
       "name": "lime",
       "type": "git",
-      "ref": "main",
-      "url": "https://github.com/th2l-devs/lime"
+      "ref": "develop",
+      "url": "https://github.com/openfl/lime"
     },
     {
       "name": "openfl",
