@@ -1,3 +1,7 @@
+[![Mobile + Release](https://github.com/Ethantobot11/PibbyEngine-0.6.3/actions/workflows/mobile-release.yml/badge.svg?event=deployment)](https://github.com/Ethantobot11/PibbyEngine-0.6.3/actions/workflows/mobile-release.yml)
+dunno what i did 
+[Ethantobot11](https://github.com/Ethantobot11)
+
 # Friday Night Funkin' - Psych Engine Mobile
 Engine originally used on [Mind Games Mod](https://gamebanana.com/mods/301107), intended to be a fix for the vanilla version's many issues while keeping the casual play aspect of it. Also aiming to be an easier alternative to newbie coders.
 
