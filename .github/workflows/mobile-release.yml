@@ -6,7 +6,7 @@ permissions:
   discussions: write
 
 env:
-  PROJECT_NAME: PibbyEngine
+  PROJECT_NAME: PibbyEngine 0.6.3
 
 jobs:
   build:
