@@ -161,8 +161,10 @@ class GameplayChangersSubstate extends MusicBeatSubstate
 		changeSelection();
 		reloadCheckboxes();
 
+		#if mobile
 		addTouchPad("LEFT_FULL", "A_B_C");
 		addTouchPadCamera();
+		#end
 	}
 
 	var nextAccept:Int = 5;
