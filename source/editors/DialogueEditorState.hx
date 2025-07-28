@@ -108,7 +108,11 @@ class DialogueEditorState extends MusicBeatState
 		daText.scaleY = 0.7;
 		add(daText);
 		changeText();
+		
+		#if mobile
 		addTouchPad("LEFT_FULL", "A_B_X_Y");
+		#end
+		
 		super.create();
 	}
 
