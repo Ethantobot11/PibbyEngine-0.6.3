@@ -90,7 +90,9 @@ class NotesSubState extends MusicBeatSubstate
 
 		changeSelection();
 
+		#if mobile
 		addTouchPad("LEFT_FULL", "A_B_C");
+		#end
 	}
 
 	var changingNote:Bool = false;
