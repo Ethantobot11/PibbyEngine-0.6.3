@@ -20,7 +20,7 @@ on:
         type: string
 
 env:
-  HAXE_VERSION: 4.2.4
+  HAXE_VERSION: 4.2.5
   PROJECT_NAME: PibbyEngine 0.6.3
 
 jobs:
@@ -42,6 +42,7 @@ jobs:
 
       - name: Install Libraries
         run: |
+          haxelib --global update haxelib
           haxelib install hmm --quiet
           haxelib run hmm install --quiet
           haxelib install format --quiet
