@@ -53,7 +53,7 @@
     {
       "name": "lime",
       "type": "git",
-      "ref": "develop",
+      "ref": "main",
       "url": "https://github.com/kittycathy233/lime"
     },
     {
