@@ -1,4 +1,4 @@
-package editors;
+packager editors;
 
 #if DISCORD_ALLOWED
 import Discord.DiscordClient;
@@ -84,7 +84,9 @@ class MenuCharacterEditorState extends MusicBeatState
 		FlxG.mouse.visible = true;
 		updateCharTypeBox();
 
+		#if mobile
 		addTouchPad("MENU_CHARACTER", "MENU_CHARACTER");
+		#end
 
 		super.create();
 	}
