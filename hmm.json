@@ -13,12 +13,6 @@
       "url": "https://github.com/th2l-devs/linc_luajit"
     },
     {
-      "name": "extension-androidtools",
-      "type": "git",
-      "ref": "main",
-      "url": "https://github.com/MAJigsaw77/extension-androidtools"
-    },
-    {
       "name": "flixel",
       "type": "git",
       "ref": "main",
