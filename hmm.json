@@ -14,9 +14,8 @@
     },
     {
       "name": "flixel",
-      "type": "git",
-      "ref": "main",
-      "url": "https://github.com/HomuHomu833/flixel"
+      "type": "haxelib",
+      "version": "5.8.0"
     },
     {
       "name": "flixel-addons",
