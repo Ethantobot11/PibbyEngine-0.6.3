@@ -95,8 +95,14 @@ class Main extends Sprite
 			gameHeight = Math.ceil(stageHeight / zoom);
 		}
 	
-		ClientPrefs.loadDefaultKeys();
-		addChild(new FlxGame(gameWidth, gameHeight, #if (mobile && MODS_ALLOWED) !CopyState.checkExistingFiles() ? CopyState : #end initialState, zoom, framerate, framerate, skipSplash, startFullscreen));
+        var state:Class<FlxState> = 
+        #if (mobile && MODS_ALLOWED)
+            !CopyState.checkExistingFiles() ? CopyState : 
+        #end
+            initialState;
+
+        addChild(new FlxGame(gameWidth, gameHeight, state, zoom, framerate, framerate, skipSplash, startFullscreen));
+
 
 		fpsVar = new FPS(10, 3, 0xFFFFFF);
 		addChild(fpsVar);
